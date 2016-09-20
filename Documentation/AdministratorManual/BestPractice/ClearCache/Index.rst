@@ -44,4 +44,6 @@ See https://docs.typo3.org/typo3cms/TyposcriptReference/Setup/Config/Index.html#
 
 	config.cache.133 = tx_news_domain_model_news:108
 	
-This includes the tx_news_domain_model_news records on page 108 (storage page) in the cache lifetime calculation for page 133 (e.g. list view page):
+This includes the tx_news_domain_model_news records on page 108 (storage page) in the cache lifetime calculation for page 133 (e.g. list view page)
+
+**Note**: This sets the expiration time of the page cache the moment the page is cached, and this is no re-checked when the page is accessed. So you would still need to use it in combination with `TCEMAIN.clearCacheCmd` if you use it on on a page without a News plugin.
