@@ -37,7 +37,7 @@ to clear all caches of pages on which the news plugins are used but beware of pe
 Include Starttime / Endtime in Page Cache Expiration
 ----------------------------------------------------
 
-In order to refresh the cache of a page showing e.g. news list view showing news records with starttime / endtime, the page cache must be configured to do so.
+In order to refresh the cache of a page showing e.g. news list with news records have a starttime / endtime set, the page cache must be configured to do so.
 See https://docs.typo3.org/typo3cms/TyposcriptReference/Setup/Config/Index.html#cache
 
 ::
